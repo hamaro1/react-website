@@ -7,17 +7,17 @@ import '../App.css';
 function HomePg(){
   return(
     <div className='home-container'>
-      <video src="/videos/video-2.mp4" autoPlay loop muted/>
+      <video src="/videos/calm.mp4" autoPlay loop muted/>
       <h1>Breathe</h1>
-      <p>You got this!</p>
+      <p>Learn more about Mental Health</p>
       <div className='home-btns'>
         <Button className='btns' buttonStyle='btn--outline'
         buttonSize='btn--large'>
-            Relax & BREATHE
+            RESOURCES
         </Button>
         <Button className='btns' buttonStyle='btn--primary'
         buttonSize='btn--large'>
-            FIND RESOURCES <i className='far fa-play-circle'/>
+            FIND GUIDES <i className='far fa-play-circle'/>
         </Button>
       </div>
     </div>
